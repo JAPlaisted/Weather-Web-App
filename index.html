@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherMe</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="main" class ="main">    
+      <div class="location">
+      <h1 class="location-timezone">Timezone</h1> 
+      <img id="current-icon" width="148" height="148">
+      </div>
+      <div class="temperature-section">
+        <div class="degree-section">
+          <h2 class="temperature-degree">Temperature</h2>
+          <span>C</span>
+        </div>
+        <div class="temperature-description">Description</div>
+      </div>
+      <a href="#more-info" class="downArrow bounce">
+        <img width="40" height="40" alt="" src="./assets/arrow.png" />
+      </a>
+    </div>
+    </section>
+    <section id="more-info" class="more-info">
+      <div class="wrapper">
+        <div class="clear-box">
+          <div class="measurement-system"><p class="system">Metric System</p></div>
+          <div class="weather-conditions">
+            <h3>Weather Conditions</h3>
+            <div class="table">
+              <div class="stats">            
+                <h4>Feels Like: </h4> 
+                <h4>Actual Temp: </h4> 
+                <h4>Cloud Coverage</h4>
+                <h4>Gust: </h4>
+                <h4>Humidity: </h4>
+                <h4>Precipitation: </h4>
+                <h4>Pressure: </h4>
+                <h4>UV Index: </h4>
+                <h4>Wind Degree: </h4>
+                <h4>Wind Direction: </h4>
+                <h4>Wind Speed: </h4>
+                <h4>Visibility: </h4>
+                <h4>Last Updated: </h4>
+              </div>
+              <div class="measurements">            
+                <h4 class="feels-Like">var</h4> 
+                <h4 class="actual-temp">var</h4>
+                <h4 class="cloud-coverage">var</h4> 
+                <h4 class="gust">var</h4>
+                <h4 class="current-humidity">var</h4>
+                <h4 class="precipitation">var</h4>
+                <h4 class="pressure">var</h4>
+                <h4 class="uv-index">var</h4>
+                <h4 class="wind-degree">var</h4>
+                <h4 class="wind-direction">var</h4>
+                <h4 class="wind-speed">var</h4>
+                <h4 class="visibility">var</h4>
+                <h4 class="last-updated">var</h4>
+              </div>
+            </div>
+          </div>
+          <div class="location-display">
+            <h3>Location Information</h3>
+            <div class="table">
+              <div class="stats">
+                <h4>Country: </h4>
+                <h4>Timezone: </h4>
+                <h4>Region: </h4>
+                <h4>Local Time: </h4>
+                <h4>Lattitude: </h4>
+                <h4>Longitude: </h4>
+              </div>
+              <div class="measurements">            
+                <h4 class="current-country">var</h4> 
+                <h4 class="timezone">var</h4> 
+                <h4 class="current-region">var</h4>
+                <h4 class="local-time">var</h4>
+                <h4 class="lattitude">var</h4>
+                <h4 class="longitude">var</h4>
+              </div>
+            </div>
+          </div>
+          <div class="air-quality">
+            <h3>Air Quality</h3>
+            <div class="table">
+              <div class="stats">
+                <h4>(DAQI): </h4>
+                <h4>(EQI): </h4>
+                <h4>Carbon Monoxide(CO): </h4>
+                <h4>Nitrogen Dioxide (NO<sub>2</sub>): <h4>
+                <h4>Ozone (O3): </h4>
+                <h4>Sulfur Dioxide (SO2): </h4>
+                <h4>Particular Matter (PM2.5): </h4>
+                <h4>Particular Matter (PM10):</h4>
+              </div>
+              <div class="measurements">            
+                <h4 class="daqi">var</h4> 
+                <h4 class="eqi">var</h4> 
+                <h4 class="carbon-monoxide">var</h4>
+                <h4 class="nitrogen-dioxide">var</h4>
+                <h4 class="ozone">var</h4>
+                <h4 class="sulfer-dioxide">var</h4>
+                <h4 class="pm25">var</h4>
+                <h4 class="pm10">var</h4>
+              </div>
+            </div>
+          </div>
+        <div class="top-button">          
+          <a href="#main" class="top">Top</a>
+        </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+    <p>Created by <a href="#" title="Jonathan Plaisted">Jonathan Plaisted</a></p>
+    <p>Powered by <a href="https://www.weatherapi.com/" title="Free Weather API" target="_blank">WeatherAPI.com</a></p></div>
+    <script src="app.js"></script>
+  </body>
+</html>
