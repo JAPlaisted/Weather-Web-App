@@ -11,6 +11,11 @@ html {
 }
 
 body {
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.main {
   background: linear-gradient(
     45deg,
     #f17c58,
@@ -20,11 +25,6 @@ body {
     #ffdc18,
     #ff3706
   );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
-.main {
   height: 100vh;
   display: flex;
   justify-content: center;
