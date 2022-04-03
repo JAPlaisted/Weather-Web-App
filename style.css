@@ -56,6 +56,10 @@ body {
   margin-bottom: 10rem;
 }
 
+.location-timezone {
+  font-size: 3rem;
+}
+
 .temperature {
   flex-direction: column;
 }
