@@ -56,10 +56,6 @@ body {
   margin-bottom: 10rem;
 }
 
-.location-timezone {
-  font-size: 3rem;
-}
-
 .temperature {
   flex-direction: column;
 }
@@ -172,7 +168,7 @@ body {
   margin-bottom: 0.5rem;
   padding: 1.5rem;
   border-radius: 10px;
-  padding: 10rem;
+  padding-inline: 10rem;
 }
 
 .more-info p {
